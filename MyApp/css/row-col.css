@@ -1,0 +1,16 @@
+.row {
+   margin-bottom: 40px; 
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.col3 {
+    float: left;
+    width: 33.3%;
+}
+.col2 {
+    float: left;
+    width: 50%;
+}
